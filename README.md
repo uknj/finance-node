@@ -1,7 +1,6 @@
-* * * * * - - - - - * * * * *
+WELCOME TO FINANCE NODE
+=======================
 
-
-Finance Node Version 2
 
 Original Author: Ido Green | plus.google.com/+Greenido
 Date: 15 Aug 2013
