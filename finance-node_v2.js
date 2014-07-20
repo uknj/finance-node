@@ -15,7 +15,7 @@ function sheetReady(err, spreadsheet) {
     if (err) throw err;
     // spreadsheet.add({ 1: { 1: "Attribute" } }); // Adds text "Attribute" to A1. Not needed.
     // spreadsheet.add({ 2: { 1: "Value" } }); // Adds text "Value" to A2. Not needed.
-    spreadsheet.add({ 1: { 1: "Name" } }); // Adds text "Name" to Cell A1.
+    spreadsheet.add({ 1: { 1: "Ticker" } }); // Adds text "Ticker" to Cell A1.
     spreadsheet.add({ 2: { 1: ticker } }); // Adds Ticker name to Cell A2.
 
 
