@@ -1,14 +1,14 @@
 WELCOME TO FINANCE NODE
 =======================
 
-****
+---
 
 #####Original Author: Ido Green | [G+](plus.google.com/+Greenido)
 #####Date: 15 Aug 2013
 #####Current Author(s): Umar "Uknj" Khan | [Twitter](twitter.com/theuknj) | [Facebook](facebook.com/the.uknj) | [Github](github.com/uknj)
 #####Date updating began: 18 Jul 2014
 
-****
+---
 
 Fetch data from the web and save it into a Google Sheet document. (Google Id, password, spreadsheetId, worksheetId.)
 To obtain spreadsheetId:
@@ -39,7 +39,7 @@ Find the entry from the response (od6 in the below example):
 </entry>`
 
 
-----
+---
 
 Requirements:
   1. NodeJS
@@ -57,4 +57,5 @@ Objectives:
 	2. Allow stock searches from CLI and not from code. DONE :)
 	3. Save multiple stock searches in the same worksheet.
 	4. Attempting to allow for multiple stock searches. --DELAYED.
-----
+
+---
