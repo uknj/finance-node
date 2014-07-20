@@ -4,15 +4,29 @@ var Spreadsheet = require('edit-google-spreadsheet');
  
 // Some parameters 
 // TODO: move from the global scope
-var ticker  = "AAPL";
-var yUrl    = "http://finance.yahoo.com/q/ks?s=" + ticker;
+var ticker = process.argv;
+
+
+if(require.main == module) { //This block allows CLI arguments to process tickers! Example: Use Node finance-node_v2.js GOOG to obtain values for Google Inc.
+    console.error('Invoked at command line.');
+    var ticker = process.argv;
+    if(ticker.length > 2) {
+        ticker = ticker.slice(2, ticker.length);
+    } else {
+        ticker = undefined;
+    };
+}
+
+var yUrl    = "http://finance.yahoo.com/q/ks?s=" + ticker; // This must be placed after the function that uses CLI arguments to process which ticker to process!
 var financeDetails = new Array();
 var keyStr         = new Array();
 var rowValue       = 2;
 
+
 // Upload our data to G-Sheet
 function sheetReady(err, spreadsheet) {
     if (err) throw err;
+
     spreadsheet.add({ 1: { 1: "Ticker" } }); // Adds text "Ticker" to Cell A1.
     spreadsheet.add({ 2: { 1: ticker } }); // Adds Ticker name to Cell A2.
 

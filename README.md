@@ -22,6 +22,6 @@ Further requirements:
 
 Objectives:
 	1. Convert from column to row storage. DONE :)
-	2. Allow stock searches from CLI and not from code.
+	2. Allow stock searches from CLI and not from code. DONE :)
 	3. Save multiple stock searches in the same worksheet.
 	4. Attempting to allow for multiple stock searches. --DELAYED.
