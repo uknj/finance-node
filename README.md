@@ -3,10 +3,10 @@ WELCOME TO FINANCE NODE
 
 ****
 
-###Original Author: Ido Green | plus.google.com/+Greenido
-###Date: 15 Aug 2013
-###Current Author(s): Umar "uknj" Khan | twiiter.com/theuknj | facebook.com/the.uknj | github.com/uknj
-###Date updating began: 18 Jul 2014
+#####Original Author: Ido Green | [G+](plus.google.com/+Greenido)
+#####Date: 15 Aug 2013
+#####Current Author(s): Umar "Uknj" Khan | [Twitter](twitter.com/theuknj) | [Facebook](facebook.com/the.uknj) | [Github](github.com/uknj)
+#####Date updating began: 18 Jul 2014
 
 ****
 
